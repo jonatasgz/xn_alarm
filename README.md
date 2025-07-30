@@ -14,22 +14,22 @@ You need to have docker installed and running in order to use this app.
 
 1. Clone the repo:
 ```
-$ git clone https://github.com/jonatasgz/xn_alarm.git
+git clone https://github.com/jonatasgz/xn_alarm.git
 ```
 
 2. Go into root folder:
 ```
-$ cd xn_alarm
+cd xn_alarm
 ```
 
 3. Build the app:
 ```
-$ docker build -t xn_alarm .
+docker build -t xn_alarm .
 ```
 
 4. Run the app:
 ```
-$ docker run -d --restart unless-stopped -p 7865:7860 xn_alarm
+docker run -d --restart unless-stopped -p 7865:7860 xn_alarm
 ```
 
 The app will bind port 7865 by default.
